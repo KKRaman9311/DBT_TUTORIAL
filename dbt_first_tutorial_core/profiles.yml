@@ -1,0 +1,22 @@
+dbt_first_tutorial_core:
+  outputs:
+    dev:
+      catalog: dbt
+      host: dbc-217b5d90-6f85.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/0aa644c795cc95a0
+      schema: default
+      threads: 1
+      token: dapi4ae91b22bebad5e3e85ac27db7f31003
+      type: databricks
+  target: dev
+dbt_folder:
+  outputs:
+    dev:
+      catalog: dbt
+      host: dbc-217b5d90-6f85.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/0aa644c795cc95a0
+      schema: source
+      threads: 1
+      token: dapi4ae91b22bebad5e3e85ac27db7f31003dapi4ae91b22bebad5e3e85ac27db7f31003
+      type: databricks
+  target: dev
