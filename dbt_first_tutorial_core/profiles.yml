@@ -6,7 +6,7 @@ dbt_first_tutorial_core:
       http_path: /sql/1.0/warehouses/0aa644c795cc95a0
       schema: default
       threads: 1
-      token: dapi53526642568de4df91ac87df427a6621
+      token: dapibba3229bac1e31a2ad00bb2559ffcbcc
       type: databricks
   target: dev
 dbt_folder:
